@@ -9,6 +9,9 @@ const io = socketio(server);
 
 
 
+app.set("view engine", "ejs")
+app.set(express.static(path.join(__dirname, "public")))
+
 app.get("/", (req, res) => {
   res.send("<h1>Welcome to my backend project</h1>");
 });
