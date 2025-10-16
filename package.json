@@ -1,5 +1,5 @@
 {
-  "name": "realtime-device-track-(map-with-node-js)",
+  "name": "realtime_device_track",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
